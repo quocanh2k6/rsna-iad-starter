@@ -1,0 +1,7 @@
+# configs/config.yaml
+data_root: ${env:DATA_ROOT, './data'}
+db:
+  server: ${env:MSSQL_SERVER, 'localhost'}
+  name: ${env:MSSQL_DB, 'RSNA'}
+  user: ${env:MSSQL_USER, 'sa'}
+  password: ${env:MSSQL_PASSWORD, 'your_password'}
